@@ -170,7 +170,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
-// FIX - These conditionals are swapped so people ov. 
+// FIX - These conditionals are swapped if age is 21 or over we console.log "enter".
 // The strings "no entry" and "enter" should be switched.
 */
 
