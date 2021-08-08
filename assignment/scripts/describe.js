@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable name as "Dane"
+// We make an if else statement that if the variable name is "Mary" to console.log "Hi, Mary!"
+// If the name is anything other than "Mary" we console.log "How do you do?"
+// We console.log "How do you do?"
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a unset variable secret and a variable code as 123
+// We set a statement that if code is 123 to set secret as "super" and set code as code multiplied by 2
+// We set a statement that if code is now more than 250 to set secret as "duper"
+// We console.log "super"
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variables isStudent to true, age to 34, and zip to 55407
+// We set a statement that if isStudent is true and zip is more than 8000 to console.log "You're a student on the West Coast!" If false it checks the next line
+// If isStudent is false or age is less than 30 to console.log "What are your hobbies?" If false it checks the next line
+// If isStudent is true to console.log "Welcome to Prime!" If false to console.log "How about the weather?"
+// We console.log "Welcome to Prime!"
 
 //CODE
 /*
@@ -132,6 +133,8 @@ if (number >= 2) {
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
+// FIX - these variables are switched. 
+// colorOne should be "blue" and colorTwo should be "red"
 let mix = true;
 
 if (mix === true) {
@@ -148,6 +151,8 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// FIX - this specifies if the temp is over 39 OR the time is more than 4 hours. 
+// It should be "if (temp > 39 && time >=4) {"
   console.log('throw away the food!');
 }
 */
@@ -165,5 +170,7 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// FIX - These conditionals are swapped so people ov. 
+// The strings "no entry" and "enter" should be switched.
 */
 
